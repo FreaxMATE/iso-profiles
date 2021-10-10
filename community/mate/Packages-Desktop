@@ -1,79 +1,90 @@
-adwaita-icon-theme
-alsa-firmware
-dconf-editor
-dmidecode
-hexchat
-eom
+## MATE apps
 atril
+caja
+caja-open-terminal
+caja-wallpaper
+gtkhash-caja
 engrampa
-firefox
-lightdm
-lightdm-slick-greeter
-lightdm-settings
-grub-theme-manjaro
-mate-wallpapers
-manjaro-wallpapers-18.0
-wallpapers-2018
-mate-icon-theme
-papirus-maia-icon-theme
-matcha-gtk-theme
-kvantum-theme-matchama
-xcursor-breeze
-mate
-marco
-brisk-menu
-mate-notification-theme-slate
-mate-control-center
+eom
 mate-calc
-mate-desktop
-mate-terminal
-mate-utils
-mate-notification-daemon
-mate-media
-mate-user-guide
+mate-control-center
 mate-system-monitor
-mate-power-manager
-pluma
+mate-terminal
 mozo
+pluma
+
+## MATE Components
+marco
+mate-applets
+mate-desktop
+mate-media
+mate-menus
+mate-notification-daemon
+mate-panel
+mate-polkit
+mate-power-manager
+mate-screensaver
+mate-sensors-applet
+mate-session-manager
+mate-settings-daemon
+mate-user-guide
+mate-utils
+python-caja
+>extra mate-applet-dock
+>extra mate-netbook
+>extra mate-notification-theme-slate
+>extra vala-panel-appmenu-mate
+
+## MATE Libraries
+libmatekbd
+libmatemixer
+libmateweather
+
+## Apps
+firefox
+evolution
 gnome-disk-utility
-gnome-keyring
-manjaro-mate-settings
-manjaro-application-utility
-mc # Midnight Commander
-pacui
-mhwd-tui
-xterm
+gnome-passwordsafe
 gparted
-squashfs-tools
+gucharmap
+gufw
+dconf-editor
+manjaro-application-utility
+manjaro-hello
+networkmanager
+pamac
+seahorse
+>extra libreoffice-still
+>extra simple-scan
+
+## Themes, Artwork and Wallpapers
+adwaita-icon-theme
+grub-theme-manjaro
+kvantum-theme-matchama
+manjaro-artwork
+matcha-gtk-theme
+mate-icon-theme
+xcursor-breeze
+
+## Multimedia, Audio and Video
+alsa-firmware
+alsa-utils
+celluloid
+grilo
 grilo-plugins
 gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-gucharmap
-gufw
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-smb
-inxi
-imagewriter
-libappindicator-gtk3
 manjaro-alsa
-manjaro-artwork
-manjaro-browser-settings
-manjaro-mate-settings
-manjaro-hotfixes
-manjaro-pulse
-manjaro-settings-manager-notifier
-manjaro-hello
->extra snapd
-mesa-demos
+manjaro-pipewire
+rhythmbox
+
+## Network
+avahi
 mobile-broadband-provider-info
 modemmanager
-usb_modeswitch
->multilib lib32-mesa-demos
 netctl
 network-manager-applet
 networkmanager-openconnect
@@ -81,77 +92,85 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
-numlockx
-openresolv
-pamac
-powertop
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
-alsa-utils
-avahi
-networkmanager
 ntp
+openresolv
 openssh
+usb_modeswitch
+
+## Glib, Gtk and Gnome
+dmidecode
+gnome-keyring
+gtk3-print-backends
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+libappindicator-gtk3
+
+## Fonts
 terminus-font
 ttf-bitstream-vera
+ttf-fira-code
 ttf-dejavu
 ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
+
+## Manjaro
+manjaro-aur-support
+manjaro-browser-settings
+manjaro-hotfixes
 manjaro-mate-panel-layout
-vino
+manjaro-printer
+manjaro-settings-manager-notifier
+mhwd-tui
+pacui
+>extra manjaro-documentation-en
+
+## Xorg
+xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
+xorg-server
 xorg-twm
 xorg-xinit
-yelp
-caja-open-terminal
->extra caja-wallpaper
->extra gtk3-print-backends
->extra manjaro-documentation-en
->extra mate-themes
->extra mate-tweak
->extra mate-screensaver
->extra thunderbird
->extra lollypop
->extra vlc
->extra pidgin
->extra uget
->extra transmission-gtk
->extra onlyoffice-desktopeditors
-timeshift 								#backup utility
->extra kernel-alive 					#after a kernel update this maintain usable the modules
->extra libdvdcss
->extra steam-manjaro
->extra manjaro-printer
->extra blueman
->extra vala-panel-appmenu-mate
->extra mate-applet-dock
->extra mate-applets
->extra plank
->extra ffmpegthumbnailer
-#>extra autoconf
-#>extra automake
-#>extra binutils
-#>extra bison
-#>extra fakeroot
-#>extra flex
-#>extra gcc
-#>extra >multilib gcc-libs-multilib
-#>extra >multilib gcc-multilib
-#>extra libtool
-#>extra m4
-#>extra make
-#>extra patch
-#>extra subversion
-#>extra yaourt
-manjaro-aur-support
 
-xdg-user-dirs
-xorg-server
+## Others
+bash-completion
+blueman
+brisk-menu
+ctags
+fish
+inxi
+lightdm
+lightdm-settings
+lightdm-slick-greeter
+mesa-demos
+numlockx
+powertop
+squashfs-tools
+vino
+yelp
+>extra ffmpegthumbnailer
+>extra kernel-alive
+>extra libdvdcss
+>multilib lib32-mesa-demos
+>extra plank
+
+# AUR packages
+caja-admin
+mate-menu
+mate-layouts
+libreoffice-style-yaru-fullcolor
+papirus-mate-icon-theme
+pluma-plugins
+rhythmbox-plugin-alternative-toolbar
+volctl
+manjaro-freaxmate-settings
+manjaro-freaxmate-backgrounds
+
