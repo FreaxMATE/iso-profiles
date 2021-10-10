@@ -42,18 +42,18 @@ libmateweather
 
 ## Apps
 firefox
-evolution
 gnome-disk-utility
 gnome-passwordsafe
 gparted
 gucharmap
 gufw
 dconf-editor
-manjaro-application-utility
 manjaro-hello
 networkmanager
 pamac
 seahorse
+>extra manjaro-application-utility
+>extra evolution
 >extra libreoffice-still
 >extra simple-scan
 
@@ -79,7 +79,7 @@ gst-plugins-good
 gst-plugins-ugly
 manjaro-alsa
 manjaro-pipewire
-rhythmbox
+>extra rhythmbox
 
 ## Network
 avahi
@@ -142,7 +142,6 @@ xorg-xinit
 
 ## Others
 bash-completion
-blueman
 brisk-menu
 ctags
 fish
@@ -156,6 +155,7 @@ powertop
 squashfs-tools
 vino
 yelp
+>extra blueman
 >extra ffmpegthumbnailer
 >extra kernel-alive
 >extra libdvdcss
@@ -164,13 +164,13 @@ yelp
 
 # AUR packages
 caja-admin
-mate-menu
-mate-layouts
-libreoffice-style-yaru-fullcolor
-papirus-mate-icon-theme
-pluma-plugins
-rhythmbox-plugin-alternative-toolbar
-volctl
 manjaro-freaxmate-settings
 manjaro-freaxmate-backgrounds
+mate-menu
+mate-layouts
+papirus-mate-icon-theme
+pluma-plugins
+volctl
+>extra libreoffice-style-yaru-fullcolor
+>extra rhythmbox-plugin-alternative-toolbar
 
