@@ -163,14 +163,31 @@ yelp
 >extra plank
 
 # AUR packages
+cmake-extras-git
+libayatana-common
+ayatana-ido
+libayatana-indicator
+libayatana-appindicator
+ayatana-indicator-session
+ayatana-indicator-datetime
+ayatana-indicator-sound
+ayatana-indicator-power
+ayatana-indicator-messages
+ayatana-indicator-keyboard
+ayatana-indicator-application
+ayatana-indicator-notifications
+ayatana-indicator-printers
+ayatana-indicator-bluetooth
+ayatana-settings
+mate-indicator-applet
 caja-admin
-manjaro-freaxmate-settings
-manjaro-freaxmate-backgrounds
 mate-menu
 mate-layouts
+libreoffice-style-yaru-fullcolor
 papirus-mate-icon-theme
 pluma-plugins
+rhythmbox-plugin-alternative-toolbar
 volctl
->extra libreoffice-style-yaru-fullcolor
->extra rhythmbox-plugin-alternative-toolbar
+manjaro-freaxmate-settings
+manjaro-freaxmate-backgrounds
 
