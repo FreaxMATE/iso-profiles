@@ -30,10 +30,9 @@ mate-settings-daemon
 mate-user-guide
 mate-utils
 python-caja
->extra mate-applet-dock
->extra mate-netbook
->extra mate-notification-theme-slate
->extra vala-panel-appmenu-mate
+mate-applet-dock
+mate-netbook
+mate-notification-theme-slate
 
 ## MATE Libraries
 libmatekbd
@@ -51,11 +50,12 @@ dconf-editor
 manjaro-hello
 networkmanager
 pamac
+pamac-tray-icon-plasma
 seahorse
->extra manjaro-application-utility
->extra evolution
->extra libreoffice-still
->extra simple-scan
+manjaro-application-utility
+evolution
+libreoffice-still
+simple-scan
 
 ## Themes, Artwork and Wallpapers
 adwaita-icon-theme
@@ -79,7 +79,7 @@ gst-plugins-good
 gst-plugins-ugly
 manjaro-alsa
 manjaro-pipewire
->extra rhythmbox
+rhythmbox
 
 ## Network
 avahi
@@ -126,7 +126,7 @@ manjaro-printer
 manjaro-settings-manager-notifier
 mhwd-tui
 pacui
->extra manjaro-documentation-en
+manjaro-documentation-en
 
 ## Xorg
 xdg-user-dirs
@@ -155,12 +155,12 @@ powertop
 squashfs-tools
 vino
 yelp
->extra blueman
->extra ffmpegthumbnailer
->extra kernel-alive
->extra libdvdcss
->multilib lib32-mesa-demos
->extra plank
+blueman
+ffmpegthumbnailer
+kernel-alive
+libdvdcss
+lib32-mesa-demos
+plank
 
 # AUR packages
 cmake-extras-git
@@ -179,7 +179,7 @@ ayatana-indicator-notifications
 ayatana-indicator-printers
 ayatana-indicator-bluetooth
 ayatana-settings
-mate-indicator-applet
+manjaro-mate-aur-packages/mate-indicator-applet
 caja-admin
 mate-menu
 mate-layouts
@@ -187,7 +187,6 @@ libreoffice-style-yaru-fullcolor
 papirus-mate-icon-theme
 pluma-plugins
 rhythmbox-plugin-alternative-toolbar
-volctl
 manjaro-freaxmate-settings
 manjaro-freaxmate-backgrounds
 
