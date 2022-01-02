@@ -41,6 +41,7 @@ libmateweather
 
 ## Apps
 firefox
+fsearch
 gnome-disk-utility
 gnome-passwordsafe
 gparted
@@ -160,6 +161,7 @@ kernel-alive
 libdvdcss
 lib32-mesa-demos
 plank
+qt5-styleplugins
 
 # AUR packages
 cmake-extras-git
