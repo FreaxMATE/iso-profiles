@@ -24,16 +24,16 @@ mate-panel
 mate-polkit
 mate-power-manager
 mate-screensaver
-mate-sensors-applet
+>extra mate-sensors-applet
 mate-session-manager
 mate-settings-daemon
 mate-themes
 mate-user-guide
 mate-utils
 python-caja
-mate-applet-dock
-mate-netbook
-mate-notification-theme-slate
+>extra mate-applet-dock
+>extra mate-netbook
+>extra mate-notification-theme-slate
 
 ## MATE Libraries
 libmatekbd
@@ -42,10 +42,10 @@ libmateweather
 
 ## Apps
 firefox
-fsearch
-gnome-disk-utility
-gnome-passwordsafe
-gparted
+>extra fsearch
+>extra gnome-disk-utility
+>extra gnome-passwordsafe
+>extra gparted
 gucharmap
 gufw
 dconf-editor
@@ -53,16 +53,15 @@ manjaro-hello
 networkmanager
 pamac
 pamac-tray-icon-plasma
-seahorse
-manjaro-application-utility
-evolution
-libreoffice-still
-simple-scan
+>extra seahorse
+>extra manjaro-application-utility
+>extra evolution
+>extra libreoffice-still
+>extra simple-scan
 
 ## Themes, Artwork and Wallpapers
 adwaita-icon-theme
 grub-theme-manjaro
-kvantum-theme-matchama
 manjaro-artwork
 matcha-gtk-theme
 mate-icon-theme
@@ -71,7 +70,7 @@ xcursor-breeze
 ## Multimedia, Audio and Video
 alsa-firmware
 alsa-utils
-celluloid
+>extra celluloid
 grilo
 grilo-plugins
 gst-libav
@@ -81,7 +80,7 @@ gst-plugins-good
 gst-plugins-ugly
 manjaro-alsa
 manjaro-pipewire
-rhythmbox
+>extra rhythmbox
 
 ## Network
 avahi
@@ -156,7 +155,6 @@ powertop
 squashfs-tools
 vino
 yelp
-blueman
 ffmpegthumbnailer
 kernel-alive
 libdvdcss
@@ -184,11 +182,11 @@ ayatana-settings
 manjaro-mate-aur-packages/mate-indicator-applet
 caja-admin
 mate-menu
-mate-layouts
-libreoffice-style-yaru-fullcolor
+>extra mate-layouts
+>extra libreoffice-style-yaru-fullcolor
 papirus-mate-icon-theme
-pluma-plugins
-rhythmbox-plugin-alternative-toolbar
+>extra pluma-plugins
+>extra rhythmbox-plugin-alternative-toolbar
 manjaro-freaxmate-settings
 manjaro-freaxmate-backgrounds
 
