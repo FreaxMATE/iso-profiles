@@ -159,7 +159,7 @@ ffmpegthumbnailer
 kernel-alive
 libdvdcss
 lib32-mesa-demos
-plank
+>extra plank
 qt5-styleplugins
 
 # AUR packages
@@ -178,8 +178,8 @@ ayatana-indicator-application
 ayatana-indicator-notifications
 ayatana-indicator-printers
 ayatana-indicator-bluetooth
-ayatana-settings
-manjaro-mate-aur-packages/mate-indicator-applet
+#ayatana-settings
+freaxmate-packages/mate-indicator-applet
 caja-admin
 mate-menu
 >extra mate-layouts
