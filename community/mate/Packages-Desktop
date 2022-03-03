@@ -3,7 +3,7 @@ atril
 caja
 caja-open-terminal
 caja-wallpaper
-gtkhash-caja
+>extra gtkhash-caja
 engrampa
 eom
 mate-calc
@@ -161,6 +161,7 @@ libdvdcss
 lib32-mesa-demos
 >extra plank
 qt5-styleplugins
+qt5ct
 
 # AUR packages
 cmake-extras-git
