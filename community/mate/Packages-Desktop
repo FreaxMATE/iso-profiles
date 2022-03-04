@@ -81,6 +81,7 @@ gst-plugins-ugly
 manjaro-alsa
 manjaro-pipewire
 >extra rhythmbox
+>extra helvum
 
 ## Network
 avahi
@@ -190,4 +191,6 @@ papirus-mate-icon-theme
 >extra rhythmbox-plugin-alternative-toolbar
 manjaro-freaxmate-settings
 manjaro-freaxmate-backgrounds
+vala-panel-appmenu-common
+vala-panel-appmenu-mate
 
