@@ -64,6 +64,8 @@ adwaita-icon-theme
 grub-theme-manjaro
 manjaro-artwork
 matcha-gtk-theme
+kvantum
+kvantum-theme-matcha
 mate-icon-theme
 xcursor-breeze
 
@@ -161,11 +163,10 @@ kernel-alive
 libdvdcss
 lib32-mesa-demos
 >extra plank
-qt5-styleplugins
 qt5ct
 
 # AUR packages
-cmake-extras-git
+cmake-extras
 libayatana-common
 ayatana-ido
 libayatana-indicator
@@ -184,6 +185,7 @@ ayatana-indicator-bluetooth
 freaxmate-packages/mate-indicator-applet
 caja-admin
 mate-menu
+mate-hud
 >extra mate-layouts
 >extra libreoffice-style-yaru-fullcolor
 papirus-mate-icon-theme
