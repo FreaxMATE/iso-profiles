@@ -129,7 +129,6 @@ manjaro-printer
 manjaro-settings-manager-notifier
 mhwd-tui
 pacui
-manjaro-documentation-en
 
 ## Xorg
 xdg-user-dirs
@@ -156,7 +155,6 @@ mesa-demos
 numlockx
 powertop
 squashfs-tools
-vino
 yelp
 ffmpegthumbnailer
 kernel-alive
