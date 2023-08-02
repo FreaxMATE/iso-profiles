@@ -56,7 +56,6 @@ pamac-tray-icon-plasma
 >extra seahorse
 >extra manjaro-application-utility
 >extra evolution
->extra libreoffice-still
 >extra simple-scan
 
 ## Themes, Artwork and Wallpapers
@@ -144,6 +143,7 @@ xorg-xinit
 
 ## Others
 bash-completion
+blueman
 brisk-menu
 ctags
 fish
