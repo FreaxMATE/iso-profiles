@@ -58,8 +58,6 @@ bison
 fakeroot
 flex
 gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
 libtool
 m4
 make
@@ -85,13 +83,12 @@ terminus-font
 >extra ttf-droid
 
 ## Games
->extra steam-manjaro
 
 ## Package management
 #packagekit-qt5
 #discover
 flatpak
-#fwupd 
+#fwupd
 octopi
 octopi-cachecleaner
 octopi-repoeditor
@@ -149,7 +146,6 @@ user-manager
 ## Themes QT/GTK/SDDM
 #breeze
 #breeze-gtk
-gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
 #>extra oxygen
@@ -160,9 +156,6 @@ grub-theme-manjaro
 illyria-wallpaper
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
-
-## Better systray/notifications support
->extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 
 ## KDE Applications
 ark
@@ -182,7 +175,6 @@ okular
 >extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
-kde-servicemenus-rootactions
 khelpcenter
 kio-extras
 #>extra kleopatra

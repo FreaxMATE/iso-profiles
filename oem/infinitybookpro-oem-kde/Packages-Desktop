@@ -58,8 +58,6 @@ bison
 fakeroot
 flex
 gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
 libtool
 m4
 make
@@ -101,7 +99,6 @@ pamac-snap-plugin
 #discover
 #packagekit-qt5
 flatpak
-bauh
 fwupd
 #pamac-qt
 manjaro-application-utility
@@ -154,7 +151,6 @@ user-manager
 ## Themes QT/GTK/SDDM
 #breeze
 #breeze-gtk
-gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
 oxygen # needed to provide KDE system sounds
@@ -167,11 +163,9 @@ wallpapers-2018
 manjaro-wallpapers-18.0
 wallpapers-tuxedo
 
-## Better systray/notifications support
-#sni-qt  # A Qt plugin that enables tray icons in qt4 applications
-
 ## KDE Applications
 ark
+audiocd-kio
 #digikam
 dolphin
 dolphin-plugins
@@ -188,7 +182,6 @@ okular
 >i686 kdenetwork-kget
 kdenetwork-filesharing
 #kdenlive
-kde-servicemenus-rootactions
 khelpcenter
 khotkeys
 kio-extras
@@ -313,7 +306,7 @@ perl-file-mimeinfo
 xdg-utils
 xdg-su
 timeshift
-kernel-alive
+#kernel-alive
 
 ## Misc
 bootsplash-theme-manjaro

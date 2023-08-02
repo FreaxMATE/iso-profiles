@@ -63,22 +63,14 @@ terminus-font
 >extra ttf-liberation
 >extra ttf-droid
 
-## Games
->x86_64 >extra steam-manjaro
-
 ## Package management
 >extra apparmor
 #>extra gnome-software-snap
-pamac-gtk
+pamac-gtk3
 >extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
-
-## Java
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
 
 ## Printing
 >extra manjaro-printer
@@ -109,7 +101,6 @@ xfwm4
 blueman
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
-gksu
 gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
@@ -154,33 +145,34 @@ pavucontrol
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-2018
 >extra wallpapers-juhraya
-gnome-icon-theme
 gnome-themes-standard
 grub-theme-manjaro
 matcha-gtk-theme
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
+plymouth
+plymouth-theme-manjaro
 
 ## Applications
+bash-completion
 >extra catfish
 dmidecode # optional dependency inxi
 engrampa
 >extra firefox
 # >extra flashplugin
->extra galculator-gtk2
-gcolor2
+>extra galculator
+gcolor3
 >extra gimp
 gparted
 gufw
 >extra audacious
 >extra hexchat
 htop
-qpdfview
 inxi
 #>extra libreoffice-still
 #>extra microsoft-office-online-jak
 #>extra freeoffice
->extra onlyoffice-desktopeditors
+#>extra onlyoffice-desktopeditors
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
@@ -193,6 +185,7 @@ mugshot
 >extra pidgin
 powertop
 screenfetch
+evince
 >extra poppler-data  # CKJ support for pdf
 #>basic sylpheed # mail client
 >extra thunderbird
@@ -207,7 +200,7 @@ unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
-manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
 >extra manjaro-xfce-gtk3-settings
@@ -239,20 +232,15 @@ xorg-mkfontscale
 
 ## Desktop Utils
 perl-file-mimeinfo
+xdg-desktop-portal-gtk
 xdg-utils
 #xdg-su
 >extra timeshift
->extra kernel-alive
+#>extra kernel-alive
 
 ## Misc
 gtkhash-thunar
 manjaro-hotfixes
 >basic squashfs-tools
 xiccd # enable color profile settings
-
-## Handshake tools
-#faucet-tool
-#hnsd-git
-#hsd-git
-#veracrypt
-#cryptoseed
+tlp

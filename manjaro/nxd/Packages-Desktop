@@ -58,8 +58,6 @@ udisks2
 >extra fakeroot
 >extra flex
 >extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
 >extra libtool
 >extra m4
 >extra make
@@ -85,7 +83,6 @@ terminus-font
 >extra ttf-droid
 
 ## Games
->x86_64 >extra steam-manjaro
 
 ## Package management
 #appimagelauncher
@@ -100,8 +97,7 @@ pamac-cli
 #discover
 #packagekit-qt5
 >extra flatpak
->extra bauh
->extra fwupd 
+>extra fwupd
 #octopi
 #octopi-cachecleaner
 #octopi-repoeditor
@@ -192,7 +188,6 @@ startup-notification # needed for waterfox
 ## Themes QT/GTK/SDDM
 #breeze
 #breeze-gtk
-gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
 oxygen # needed to provide KDE system sounds
@@ -204,9 +199,6 @@ illyria-wallpaper
 >extra wallpapers-juhraya
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
-
-## Better systray/notifications support
-#>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 
 ## KDE Applications
 ark
@@ -226,7 +218,6 @@ okular
 >extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
-kde-servicemenus-rootactions
 khelpcenter
 kio-extras
 #>extra kleopatra
@@ -350,7 +341,7 @@ perl-file-mimeinfo
 xdg-utils
 #xdg-su
 >extra timeshift
->extra kernel-alive
+#>extra kernel-alive
 
 ## Misc
 manjaro-hotfixes

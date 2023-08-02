@@ -52,8 +52,6 @@ bison
 fakeroot
 flex
 gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
 libtool
 m4
 make
@@ -82,7 +80,6 @@ ttf-droid
 pamac-gtk
 pamac-snap-plugin
 flatpak
-bauh
 
 ## Java
 jdk8-openjdk
@@ -119,7 +116,6 @@ xfwm4
 blueman
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
-gksu
 gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
@@ -166,7 +162,6 @@ xcape
 manjaro-wallpapers-18.0
 wallpapers-2018
 wallpapers-juhraya
-gnome-icon-theme
 gnome-themes-standard
 grub-theme-manjaro
 matcha-gtk-theme
@@ -184,7 +179,7 @@ engrampa
 firefox
 # flashplugin
 galculator-gtk2
-gcolor2
+gcolor3
 gimp
 gparted
 gufw
@@ -257,7 +252,7 @@ manjaro-hotfixes
 tuxedo-keyboard-dkms
 KERNEL-headers
 timeshift
-kernel-alive
+#kernel-alive
 
 ## OEM
 calamares-oem-modules

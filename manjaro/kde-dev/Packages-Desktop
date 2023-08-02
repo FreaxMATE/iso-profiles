@@ -58,8 +58,6 @@ bison
 fakeroot
 flex
 gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
 libtool
 m4
 make
@@ -84,7 +82,6 @@ terminus-font
 >extra ttf-droid
 
 ## Games
-#>extra steam-manjaro
 
 ## Package management
 #appimagelauncher
@@ -152,7 +149,6 @@ systemsettings
 breeze
 breeze-gtk
 breeze-icons
-gnome-icon-theme
 gnome-themes-standard
 #gtk-theme-breath
 oxygen
@@ -163,9 +159,6 @@ grub-theme-manjaro
 #illyria-wallpaper
 #>extra wallpapers-2018
 #>extra manjaro-wallpapers-18.0
-
-## Better systray/notifications support
-#>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 
 ## KDE Applications
 ark
